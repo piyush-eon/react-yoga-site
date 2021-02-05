@@ -1,0 +1,23 @@
+.live {
+  padding: 50px 10px;
+}
+.cardsContainer {
+  padding-top: 20px;
+  width: 100%;
+  display: grid;
+  justify-content: space-around;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+@media (max-width: 1142px) {
+  .cardsContainer {
+    justify-content: space-evenly;
+
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 897px) {
+  .cardsContainer {
+    grid-template-columns: auto;
+  }
+}

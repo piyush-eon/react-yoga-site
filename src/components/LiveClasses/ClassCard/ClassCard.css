@@ -1,0 +1,80 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 250px;
+  border: 2px solid black;
+  justify-content: space-between;
+  padding: 10px;
+}
+@media (max-width: 1142px) {
+  .card {
+    width: 400px;
+  }
+}
+@media (max-width: 750px) {
+  .card {
+    width: 350px;
+  }
+}
+.classTitle {
+  font-size: 20px;
+  display: flex;
+  height: 50px;
+  padding-left: 20px;
+  background-color: rgb(255, 116, 136);
+  border: 1px solid black;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+.price {
+  color: black;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.cardContent {
+  width: 100%;
+  flex: 1;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.repeat {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book {
+  display: flex;
+  padding: 0;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+  cursor: pointer;
+  height: 45px;
+  font-size: 18px;
+}
+
+.book:hover {
+  background-color: lightpink;
+  border: 1px solid black;
+  color: black;
+}

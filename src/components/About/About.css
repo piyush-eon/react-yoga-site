@@ -1,0 +1,10 @@
+.about {
+  background-color: lightpink;
+  padding: 50px 10px;
+}
+.about__container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+}
