@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ClassCard.css";
 
 const ClassCard = ({ data }) => {
@@ -18,7 +19,9 @@ const ClassCard = ({ data }) => {
           <span>{data.student}</span>
         </div>
       </div>
-      <span className=" book">Book</span>
+      <Link to={`/class/${data.id}`} className="book">
+        Book
+      </Link>
     </div>
   );
 };

@@ -10,9 +10,10 @@ const About = () => {
           <span className="subTitle">
             From a personal inward yoga journey to our group yoga classes for
             fitness enthusiasts, the goal of every GoodLife Yoda instructor is
-            to help all netizens live a fit and healthy good life. We are based
-            out of Pune, MH in India. Please book our live classes from the
-            schedule provided below.
+            to help all netizens live a fit and healthy good life.
+            <br />
+            We are based out of Pune, MH in India. Please book our live classes
+            from the schedule provided below.
           </span>
         </div>
       </Container>

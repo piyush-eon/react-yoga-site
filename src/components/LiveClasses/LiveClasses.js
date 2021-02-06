@@ -11,7 +11,7 @@ const LiveClasses = () => {
           <span className="title">Live Classes</span>
           <div className="cardsContainer">
             {Dummy.map((data) => (
-              <ClassCard data={data} />
+              <ClassCard key={data.id} data={data} />
             ))}
           </div>
         </div>

@@ -1,7 +1,8 @@
 export const Dummy = [
   {
+    id: 1,
     title: "Some Exercide",
-    description: "Add Some Description",
+    description: "Add some description about the class here.",
     date: "January 29",
     time: "5:30 PM",
     recurrence: "Does Not Repeat",
@@ -9,21 +10,23 @@ export const Dummy = [
     student: "For Everyone",
   },
   {
+    id: 2,
     title: "Testing CAD Stripe",
-    description: "Add Some Description",
+    description: "Add some description about the class here.",
     date: "January 25",
     time: "9:30 PM",
     recurrence: "Every Monday",
-    price: "10 USD",
+    price: "$ 10",
     student: "Paid Students",
   },
   {
+    id: 3,
     title: "Some other Yoga",
-    description: "Add Some Description",
+    description: "Add some description about the class here.",
     date: "February 03",
     time: "11:30 AM",
     recurrence: "Every Thursday",
-    price: "5 USD",
+    price: "$ 5",
     student: "Paid Students",
   },
 ];

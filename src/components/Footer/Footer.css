@@ -1,0 +1,9 @@
+.footer {
+  padding: 40px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}

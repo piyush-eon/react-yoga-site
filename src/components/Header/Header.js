@@ -6,6 +6,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 import LanguageIcon from "@material-ui/icons/Language";
 import { Menu, MenuItem } from "@material-ui/core";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -48,7 +49,7 @@ const Header = () => {
 
       <div className="nav">
         <div className="brand">
-          <a href="#home" className="logo">
+          <a href="/#" className="logo">
             Goodlife Yoga
           </a>
         </div>
@@ -61,10 +62,10 @@ const Header = () => {
           </span>
 
           <ul className="menuLinks">
-            <li onClick={nav && handleMenu}>
-              <a href="/#">Home</a>
+            <li onClick={nav ? handleMenu : () => {}}>
+              <Link to="/">Home</Link>
             </li>
-            <li onClick={nav && handleMenu}>
+            <li onClick={nav ? handleMenu : () => {}}>
               <a href="#classes">Live Classes</a>
             </li>
           </ul>
