@@ -15,7 +15,7 @@ const ClassDetails = () => {
   }, []);
 
   return (
-    <Container className="classdetails">
+    <Container className="classdetails" maxWidth="md">
       <div className="class__container">
         <div className="headerImage">
           <img

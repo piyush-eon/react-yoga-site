@@ -1,6 +1,6 @@
 export const info = {
   title: "Fitsoul Yoga",
-  description: "Welcome to Fitsoul Yoga with Mia Sins",
+  description: "Welcome to Fitsoul Yoga with Mr. Sins",
   about: `Some dummy text to provide information about the instructor
           and the fitsoul yoga's mission. We do some blah blah blah to
           make you blah blah in blah blah time.`,
@@ -38,7 +38,7 @@ export const Dummy = [
   },
   {
     id: 3,
-    title: "Advance Yoga Moves",
+    title: "Special Exercises",
     description: "Add some description about the class here.",
     date: "March 03",
     time: "11:30 AM",

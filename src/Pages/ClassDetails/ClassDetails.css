@@ -16,16 +16,16 @@
   margin-left: -20px;
   z-index: -1;
   position: relative;
-  background-color: lightpink;
+  background-color: lightblue;
 }
 
 .imgText {
   animation: MoveUpDown 3s linear infinite;
   position: absolute;
   top: 40%;
-  left: 35%;
+  left: 25%;
   font-weight: 500;
-  background-color: lightpink;
+  background-color: rgb(82, 142, 255);
   padding: 0 20px;
   color: white;
   transform: translate(-50%, -50%);
@@ -35,7 +35,7 @@
 
 @media (max-width: 1051px) {
   .imgText {
-    left: 25%;
+    left: 15%;
   }
 }
 @media (max-width: 827px) {
@@ -46,7 +46,8 @@
 @media (max-width: 683px) {
   .imgText {
     font-size: 25px;
-    left: 18%;
+    top: 50%;
+    left: 25%;
   }
 }
 
@@ -80,7 +81,7 @@
   text-align: center;
   font-size: 30px;
   padding: 10px 0;
-  background-color: rgb(255, 119, 139);
+  background-color: rgb(82, 142, 255);
   color: white;
   width: 100%;
 }

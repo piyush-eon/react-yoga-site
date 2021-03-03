@@ -94,8 +94,8 @@
 .background {
   position: fixed;
   background-image: radial-gradient(
-    rgba(255, 137, 155, 0.8),
-    rgba(255, 78, 104, 0.8)
+    rgb(173, 216, 230, 0.8),
+    rgba(50, 204, 255, 0.8)
   );
 
   left: 49.5%;

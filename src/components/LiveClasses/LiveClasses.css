@@ -12,7 +12,6 @@
 @media (max-width: 1142px) {
   .cardsContainer {
     justify-content: space-evenly;
-
     grid-template-columns: auto auto;
   }
 }
