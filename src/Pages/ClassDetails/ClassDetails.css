@@ -59,27 +59,6 @@
   animation: MoveUpDown 3s linear infinite;
 }
 
-@keyframes MoveUpDown {
-  0% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateX(5px);
-  }
-  40% {
-    transform: translateY(5px);
-  }
-  60% {
-    transform: translateX(-5px);
-  }
-  80% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
 .detailContent {
   font-family: "Montserrat", sans-serif;
   display: flex;

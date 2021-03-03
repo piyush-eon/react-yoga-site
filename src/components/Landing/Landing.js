@@ -1,6 +1,7 @@
 import { Container } from "@material-ui/core";
 import "./Landing.css";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+import { info } from "../../data/DummyData";
 
 const Landing = () => {
   return (
@@ -8,10 +9,8 @@ const Landing = () => {
       <Container>
         <div className="landing__container">
           <div className="landing__text">
-            <span className="title">Goodlife Yoga</span>
-            <span className="subTitle">
-              Welcome to Goodlife Yoga with Pooja Shah
-            </span>
+            <span className="title">{info.title}</span>
+            <span className="subTitle">{info.description}</span>
             <a className="learnMore" href="#about">
               Learn More <ArrowForwardIcon />{" "}
             </a>

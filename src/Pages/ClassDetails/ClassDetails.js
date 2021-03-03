@@ -8,8 +8,6 @@ const ClassDetails = () => {
   const { id } = useParams();
   const [details, setDetails] = useState();
 
-  // console.log(id);
-
   useEffect(() => {
     window.scroll(0, 0);
     setDetails(Dummy.find((data) => data.id === parseInt(id)));

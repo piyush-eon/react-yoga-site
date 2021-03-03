@@ -6,7 +6,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 import LanguageIcon from "@material-ui/icons/Language";
 import { Menu, MenuItem } from "@material-ui/core";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
-import { Link } from "react-router-dom";
+import { info, links } from "../../data/DummyData";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -50,7 +50,7 @@ const Header = () => {
       <div className="nav">
         <div className="brand">
           <a href="/#" className="logo">
-            Goodlife Yoga
+            {info.title}
           </a>
         </div>
 
@@ -63,10 +63,10 @@ const Header = () => {
 
           <ul className="menuLinks">
             <li onClick={nav ? handleMenu : () => {}}>
-              <Link to="/">Home</Link>
+              <a href="/#">Home</a>
             </li>
             <li onClick={nav ? handleMenu : () => {}}>
-              <a href="#classes">Live Classes</a>
+              <a href="/#classes">Live Classes</a>
             </li>
           </ul>
           <div
@@ -84,22 +84,22 @@ const Header = () => {
             onClose={handleClose}
           >
             <MenuItem onClick={handleClose}>
-              <a href="/#">
+              <a href={links.fb}>
                 <FacebookIcon />
               </a>
             </MenuItem>
             <MenuItem onClick={handleClose}>
-              <a href="/#">
+              <a href={links.insta}>
                 <InstagramIcon />
               </a>
             </MenuItem>
             <MenuItem onClick={handleClose}>
-              <a href="/#">
+              <a href={links.youtube}>
                 <YouTubeIcon />
               </a>
             </MenuItem>
             <MenuItem onClick={handleClose}>
-              <a href="/#">
+              <a href={links.website}>
                 <LanguageIcon />
               </a>
             </MenuItem>

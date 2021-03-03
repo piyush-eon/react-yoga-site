@@ -1,6 +1,5 @@
 .landing {
   height: 95vh;
-  /* background-color: teal; */
   padding: 80px 0 0 0;
 }
 .landing__container {
@@ -61,27 +60,6 @@
   padding-top: 15px;
   object-fit: cover;
   animation: MoveUpDown 3s linear infinite;
-}
-
-@keyframes MoveUpDown {
-  0% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateX(5px);
-  }
-  40% {
-    transform: translateY(5px);
-  }
-  60% {
-    transform: translateX(-5px);
-  }
-  80% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
 }
 
 @media (max-width: 750px) {
