@@ -41,7 +41,13 @@ const ClassDetails = () => {
               <b style={{ color: "green" }}>{details.price}</b>
             </div>
 
-            <Button variant="contained" color="primary" size="large">
+            <Button
+              variant="contained"
+              color="primary"
+              size="large"
+              // can add this to disable
+              disableElevation
+            >
               Register Now
             </Button>
           </div>
